@@ -1,0 +1,57 @@
+@media screen and (min-width:1520px) {
+    .imgAbout{
+        width: 118% !important;
+    }
+}
+@media screen and (max-width:992px) {
+    .p{
+        font-size: 14px ;
+    }
+}
+.itemIcon:hover{
+    color: white;
+    background-color: var(--orange);
+}
+.itemIcon p:last-child{
+   font-size: 14px;
+}
+.icon-about{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+.icon-about::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    outline:10px solid rgb(199, 199, 199);
+}
+.itemIcon:hover .icon-about{
+    background-color: white;
+    color: black;
+}
+.person-item img{
+    aspect-ratio: 1/1;
+    width: 70%;
+    height: 350px;
+}
+.slick-slide>div{
+    margin: 0 15px; 
+  }
+  .slick-dots {
+    
+    bottom: -40px;}
+    .slick-dots li button:before {
+        font-size: 12px;
+
+    }
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color:var(--orange) !important;
+}

@@ -1,0 +1,34 @@
+
+.footer{
+    color: rgba(250, 250, 250, 1);
+}
+.formInput{
+    width: 90%;
+}
+@media screen and (min-width:768px) {
+    .formInput{
+        width: 70%;
+    }
+}
+.inputFooter{
+    background-color: black;
+    border: white 1px solid;
+    color: white;
+}
+.arrow{
+    right: 8px;
+}
+.pragraph{
+font-size: 15px;
+color: rgb(198, 198, 198);
+}
+.img{
+    aspect-ratio: 1/1;
+    width: 100%;
+    height: 120px;
+}
+.img1{
+    aspect-ratio: 1/1;
+    width: 100%;
+    height: 60px;
+}

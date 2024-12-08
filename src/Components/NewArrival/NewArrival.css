@@ -1,0 +1,43 @@
+.arrival .item{
+    overflow: hidden;            
+    border-radius: 8px;          
+  }
+  .arrival .content{
+    left: 10%;
+    bottom: 10%;
+    width: 80%
+  }
+  @media screen and (min-width:1200px){
+    .arrival    .content{
+     max-width: 280px;
+      }
+  }
+  .arrival .content p{
+    font-size: 14px;
+  }
+
+
+  .arrival .item img {
+object-fit: contain; 
+
+}
+  
+.arrival  .item1{
+    height: 600px;          
+  }
+  .arrival .item2,.item3,.item4 {
+    height: 288px;          
+  }
+  .arrival  .item2 img{
+    transform: rotateY(180deg) translateX(-15%) ;
+    
+  }
+
+@media screen and (max-width:992px) {
+    .arrival   .item1{
+        height: 300px;          
+      }
+      .arrival    .item2,.item3,.item4 {
+        height: 300px;          
+      }
+}

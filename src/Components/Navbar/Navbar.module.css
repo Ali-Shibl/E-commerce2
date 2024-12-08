@@ -1,0 +1,64 @@
+
+.pragraph{
+    font-size: 14px;
+}
+.selectText{
+    font-size: 14px;
+}
+@media screen and (min-width:768px) {
+    .pragraph{
+        width: auto;
+        font-size: 15px;
+    }
+    .selectText{
+        font-size: 16px;
+    }
+}
+.logo{
+font-size: 24px;
+font-weight: 700;
+}
+.link{
+    font-size: 17px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.fromNav{
+    width:280px;
+}
+.fromNav input{
+    border: none;
+    outline: none;
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 5px;
+}
+.iconSearch{
+    transition: .3s;
+    right: 15px;
+    font-size: 15px;
+}
+
+.fromNav input:focus +span{
+    right: 7px;
+    font-size: 13px;
+    color: aliceblue;   
+}
+.fromNav input:focus {
+    color: white;
+    background-color: black;
+}
+
+.menu{
+    width: 100%;
+}
+@media screen and (min-width:992px) {
+    .menu{
+        width: auto;
+    } 
+}
+.person{
+    
+    width: 35px;
+    height: 35px;
+}

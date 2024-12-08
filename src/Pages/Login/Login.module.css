@@ -1,0 +1,27 @@
+.btnOrange{
+    background-color: var(--orange);
+    color: white;
+}
+.btnOrange:hover{
+    border: solid 1px var(--orange);
+}
+.imgLogin::after{
+    content: "";
+    width: 150px;
+    height: 100%;
+    background: linear-gradient(to bottom ,#BCDBE0,#BCDBE0,#BCDBE0,#e9f7fe);
+    position: absolute;
+    top: 0;
+    right: 100%;
+}
+.imgLogin::before{
+    content: "";
+    width: calc(100% + 150px);
+    height: 50px;
+    background: linear-gradient(to left ,rgb(204, 227, 233),rgb(204, 229, 233),#BCDBE0);
+    position: absolute;
+    bottom: 100%;
+    right:0%;
+
+    
+}

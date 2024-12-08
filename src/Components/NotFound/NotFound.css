@@ -1,0 +1,16 @@
+.notfound{
+    height: 70vh;
+}
+.notfound h1{
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    }
+@media screen and (min-width:992px) {
+.notfound h1{
+            font-size: 85px;
+}
+ .notfound{
+     height: 80vh;
+  }   
+ } 
