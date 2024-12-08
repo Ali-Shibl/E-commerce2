@@ -21,7 +21,7 @@ export default function Cart() {
                 <li className="breadcrumb-item"><a href='#' className='nav-link ms-3'>Cart</a></li>
               </ol>
             </nav>
-          <h1 className="text-center mb-0 py-5 h3 text-muted">Your cart is empty.</h1>;
+          <h1 className="text-center mb-0 py-5 h3 text-muted">Your cart is empty.</h1>
 
     </div>
     
